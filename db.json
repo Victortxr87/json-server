@@ -1,12 +1,52 @@
 {
-  "users": [
+  "usuarios": [
     {
       "id": 1,
       "email": "teste@email.com",
       "password": "123456"
     }
   ],
-  "informacoes": [],
-  "experiencias": [],
-  "portfolio": []
+  "informacoes": [
+    {
+      "id": 1,
+      "foto": "https://github.com/Victortxr87.png",
+      "nome": "JOAO VICTOR TEIXEIRA MARINHO",
+      "cargo": "Analista de suporte",
+      "resumo": "Atendimento via chat para empresas no setor de Igaming 2"
+    }
+  ],
+  "experiencias": [
+    {
+      "id": 2,
+      "titulo": "Dev React",
+      "descricao": "Dev React em Comeia Labs",
+      "tipo": "Profissional",
+      "anoInicio": "2015",
+      "anoFim": "2018"
+    },
+    {
+      "id": 3,
+      "titulo": "Dev Angula",
+      "descricao": "Dev Angula em Comeia Labs",
+      "tipo": "Profissional",
+      "anoInicio": "2015",
+      "anoFim": "2022"
+    }
+  ],
+  "Portfolio": [
+    {
+      "id": 1,
+      "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png",
+      "title": "React JS",
+      "description": "Desenvolvedor Pleno"
+    },
+    {
+      "id": 2,
+      "link": "https://miro.medium.com/v2/resize:fit:1400/1*R1mfXLP9edcArZXwmGbGag.jpeg",
+      "image": "https://miro.medium.com/v2/resize:fit:1400/1*R1mfXLP9edcArZXwmGbGag.jpeg",
+      "title": "Angular JS",
+      "description": "Desenvolvedor Junior "
+    }
+  ]
 }
